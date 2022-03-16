@@ -65,12 +65,3 @@ button {
 
 .transactAmo { text-align: center;}
 
-button .message {
-    visibility: hidden;
-    position: absolute;
-    z-index: 1;
-    padding-left: 3vw;
-    margin-top: -2.4vh;
-}
-
-button:hover .message { visibility: visible;}

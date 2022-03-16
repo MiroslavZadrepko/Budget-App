@@ -18,8 +18,6 @@ const Forma = ({ setTotalIncome, setTotalExpenditure, setTotalSaldo, totalIncome
     setTransactions(getTransactions)
     }, []);
    
-    
-
     const handleSubmit = (e) => {
         e.preventDefault()
         oneTransaction.tip == 'prihod' ? setTotalIncome(prev => prev + Number(oneTransaction.amount)) : setTotalExpenditure(prev => prev + Number(oneTransaction.amount))

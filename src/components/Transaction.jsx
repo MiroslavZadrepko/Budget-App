@@ -34,7 +34,8 @@ const Transaction = ({ transaction, transactions, setTransactions, setTotalIncom
                 <p className='transactDesc transact' >{transaction.description} </p>
                 <p className='transactAmo transact'> {transaction.amount}</p>
                 <button onClick={() => handleDeletee(transaction.id)}> <span className='message'>delete</span> </button>
-            </div>}
+            </div>
+            }
         </>
     );
 }

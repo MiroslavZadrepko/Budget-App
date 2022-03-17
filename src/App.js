@@ -27,7 +27,7 @@ function App() {
 
     <div className="app inputDiv">
       <Totals totalIncome={totalIncome} totalExpenditure={totalExpenditure} totalSaldo={totalSaldo} />
-      <button onClick={clearStorage} name='btn3'>Clear All</button> 
+      <button onClick={clearStorage} name='btn3'>Clear</button> 
       <Forma setTotalIncome={setTotalIncome} setTotalExpenditure={setTotalExpenditure} setTotalSaldo={setTotalSaldo} totalIncome={totalIncome} totalExpenditure={totalExpenditure} totalSaldo={totalSaldo}/>
     </div>
 

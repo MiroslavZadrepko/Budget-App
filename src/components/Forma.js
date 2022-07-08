@@ -64,14 +64,14 @@ const Forma = ({ setTotalIncome, setTotalExpenditure, setTotalSaldo, totalIncome
                         name='btn1'
                         value='prihod'
                         className='btnIncome'
-                    >Prihod</button>
+                    >Income</button>
                     <button
                         onClick={() => (oneTransaction.tip = 'rashod')}
                         type='submit'
                         name='btn2'
                         value='rashod'
                         className='btnRashod'
-                    >Rashod</button>
+                    >Expenditure</button>
 
                 </form>
             </div>

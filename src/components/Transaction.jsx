@@ -1,7 +1,9 @@
 import React from 'react';
 
 const Transaction = ({ transaction, transactions, setTransactions, setTotalIncome, setTotalExpenditure, setTotalSaldo, totalIncome, totalExpenditure, totalSaldo }) => {
+
     /**rešiti prosleđivanje totalSaldo i ubacivanje u lokal storage */
+
     const handleDeletee = (id) => {
         let filtered = transactions.filter(transaction => transaction.id !== id)
         setTimeout(() => {

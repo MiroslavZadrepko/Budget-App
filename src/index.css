@@ -3,6 +3,10 @@
     font-size: large;
 }
 
+body {
+    background-color: gray;
+}
+
 .app {text-align: center;}
 
 input {
